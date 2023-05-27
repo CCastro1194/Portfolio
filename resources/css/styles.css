@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+/* general settings */
+
+.img-profile {
+    width: 100%;
+}
+
+.icon {
+    width: 60px;
+}
+
+.icon-small {
+    width: 25px;
+}
+
+.icon-construction {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+}
