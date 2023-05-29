@@ -4,51 +4,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="resources/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="resources/css/bootstrap.min.css">
     <link rel="stylesheet" href="resources/css/styles.css">
-    <script src="resources/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="resources/js/bootstrap.bundle.min.js"></script>
     <title>Portfolio</title>
 </head>
 <body>
     <header>
-        <h3>TITLE</h3>
-        <nav>
-            <a href="index.html">HOME</a>
-            <a href="education.html">EDUCATION</a>
-            <a href="projects.html">PROJECTS</a>
-        </nav>
+        
+        <!-- Navbar for Mobile Devices and Tablet-->
+
+        <nav id="mobile-nav" class="navbar shadow-sm">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <h2>PORTFOLIO</h2>
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h4 class="offcanvas-title" id="offcanvasNavbarLabel">CONTENT</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="dropdown-menu navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a href="index.html"><h3 class="dropdown-header" href="index.html">HOME</h3></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="dropdown-item" href="#about">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="dropdown-item" href="#experience">Professional Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="dropdown-item" href="#studies">Studies and Preparation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="dropdown-item" href="#skills-tools">Skills & Tools</a>
+                        </li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li class="nav-item">
+                            <a href="projects.html"><h3 class="dropdown-header">PROJECTS</h3></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="dropdown-item" href="#">Image Gallery</a>
+                        </li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+
     </header>
     <main>
-        <aside>
 
-        </aside>
-        <div>
-            <section id="title">
-                <h1>CARLOS CASTRO, WEB DEVELOPER</h1>
-                <div>
-                    <img src="resources/img/Testimg.jpg" alt="A picture of myself" class="img-profile">
-                    <div>
-                        <img src="resources/img/icons/At.png" alt="" class="icon-small"><a href="mailto:ccastro1194@gmail.com"> ccastro1194@gmail.com</a>
-                        <p><img src="resources/img/icons/Github.png" alt="" class="icon-small"> CCastro1194</p>
-                        <p><img src="resources/img/icons/Phone.png" alt="" class="icon-small"> +50377378786</p>
-                        <img src="resources/img/icons/Linkedin-grayscale.png" alt="" class="icon-small"><a href="https://www.linkedin.com/in/carlos-castro-5a9352198" target="_blank"> https://www.linkedin.com/in/carlos-castro-5a9352198</a>
+        <section id="title" class="item1">
+            <h1>CARLOS<br>CASTRO</h1>
+            <h2>FRONT-END<br>&lt;WEB DEVELOPER&gt;</h2>
+            <div class="hero-banner">
+                <img src="resources/img/Profile-Hero-banner.png" alt="A picture of myself" class="img-profile">
+                <div id="stack">
+                    <h4>STACK</h4>
+                    <div class="stack-wrapper">
+                        <img src="resources/img/icons/HTML5.png" alt="" class="icon">
+                        <img src="resources/img/icons/CSS3.png" alt="" class="icon">
+                        <img src="resources/img/icons/Bootstrap.png" alt="" class="icon">
+                        <!-- <img src="resources/img/icons/Tailwind.png" alt="" class="icon"> -->
+                        <img src="resources/img/icons/Javascript.png" alt="" class="icon">
+                        <img src="resources/img/icons/React.png" alt="" class="icon">
                     </div>
                 </div>
-            </section>
-            <section id="about">
-                <img src="" alt="">
-                <div>
-                    <h2>ABOUT ME</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repellat architecto, unde sequi alias qui consectetur quod, modi blanditiis, temporibus voluptate assumenda voluptates sapiente officia distinctio aliquid tempore quasi natus.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia unde tempore optio eos, ullam eum cupiditate tempora assumenda eligendi consectetur dolor consequatur voluptatum quia eaque quae laudantium illum vero. Facilis?</p>
+                <div class="contact">
+                    <a href="mailto:ccastro1194@gmail.com"><img src="resources/img/icons/At.png" alt="" class="icon-small"></a>
+                    <a href="https://www.github.com/CCastro1194" target="_blank"><img src="resources/img/icons/Github.png" alt="" class="icon-small"></a>
+                    <a href="https://www.linkedin.com/in/carlos-castro-5a9352198" target="_blank"><img src="resources/img/icons/Linkedin-grayscale.png" alt="" class="icon-small"></a>
                 </div>
-            </section>
-            <section id="experience">
-                <h2>PROFESSIONAL EXPERIENCE</h2>
-                <p>2 years experience</p>
+            </div>
+        </section>
+        <section id="about" class="item2">
+            <div class="about-container">
+                <h2>ABOUT <span class="span-color">ME</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repellat architecto, unde sequi alias qui consectetur quod, modi blanditiis, temporibus voluptate assumenda voluptates sapiente officia distinctio aliquid tempore quasi natus.</p>
+            </div>
+        </section>
+        <section id="experience" class="item3">
+            <h2>PROFESSIONAL <span class="span-color">EXPERIENCE</span></h2>
+            <p>3 years experience</p>
+            <div>
                 <ul>
                     <li>
-                        <h4>PROJECT MANAGEMENT ASSISTANT | CSH</h4>
+                        <h4>PROJECT MANAGEMENT ASSISTANT | CENTRAL DE SERVICIOS HISPANOS</h4>
                         <p></p>
                     </li>
                     <li>
@@ -59,9 +106,80 @@
                         <h4>CORSATUR | QUALITY SPECIALIST</h4>
                         <p></p>
                     </li>
+                    <li>
+                        <h4>MILLICOM TIGO | DIGITAL & MFS INTERN</h4>
+                        <p></p>
+                    </li>
                 </ul>
-            </section>
-        </div>
+            </div>
+        </section>
+        <section id="studies" class="item4">
+            <h2>STUDIES AND PREPARATION</h2>
+            <div>
+                <div id="certifications">
+                    <h4>KODIGO</h4>
+                    <p>Front-end Web Developer (in progress)</p>
+
+                    <h4>CODECADEMY</h4>
+                    <p>Front-end Web developer (In progress)</p>
+                </div>
+                <div id="education">
+                    <h4>UNIVERSIDAD DR. JOSE MATIAS DELGADO</h4>
+                    <p>Industrial Engineering</p>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="item5">
+            <h2><span class="span-color">SKILLS</span></h2>
+            <div>
+                <h4></h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+            <div>
+                <h4></h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+            <div>
+                <h4></h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+            <div>
+                <h4></h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+        </section>
+        <section id="tools" class="item6">
+            <h2>TOOLS</h2>
+            <div class="container">
+                <div class="subcontainer">
+                    <h4>Business</h4>
+                    <div class="wrapper">
+                        <img src="resources/img/icons/Word.png" alt="" class="icon">
+                        <img src="resources/img/icons/Excel.png" alt="" class="icon">
+                        <img src="resources/img/icons/Sharepoint.png" alt="" class="icon">
+                        <img src="resources/img/icons/Outlook.png" alt="" class="icon">
+                        <img src="resources/img/icons/Docs.png" alt="" class="icon">
+                        <img src="resources/img/icons/Spreadsheets.png" alt="" class="icon">
+                        <img src="resources/img/icons/Gmail.png" alt="" class="icon">
+                        <img src="resources/img/icons/Drive.png" alt="" class="icon">
+                        <img src="resources/img/icons/Github.png" alt="" class="icon">
+                        <img src="resources/img/icons/Slack.png" alt="" class="icon">
+                        <img src="resources/img/icons/Trello.png" alt="" class="icon">
+                    </div>
+                </div>
+                <div class="subcontainer">
+                    <h4>Design & Production</h4>
+                    <div class="wrapper">
+                        <img src="resources/img/icons/Cubase.png" alt="" class="icon">
+                        <img src="resources/img/icons/Premiere.png" alt="" class="icon">
+                        <img src="resources/img/icons/Photoshop.png" alt="" class="icon">
+                        <img src="resources/img/icons/Lightroom.png" alt="" class="icon">
+                        <img src="resources/img/icons/ca" alt="" class="icon">
+                        <img src="resources/img/icons/Figma.png" alt="" class="icon">
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
