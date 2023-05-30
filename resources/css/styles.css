@@ -50,6 +50,10 @@ p {
     color: #03a696;
 }
 
+.span-color{
+    color: #f27457;
+}
+
 .icon {
     width: 25px;
 }
@@ -63,7 +67,6 @@ p {
     position: absolute;
     top: 40%;
 }
-
 
 /* Header Navbar */
 
@@ -106,10 +109,10 @@ p {
 
 
 
-    /* Hero Banner */
+    /* Portfolio Content */
 
 #title {
-    margin-top: 7vh;
+    margin-top: 10vh;
 }
 
 h1 {
@@ -132,7 +135,7 @@ h1 {
 }
 
 .img-profile {
-    width: 225px;
+    width: 230px;
     border-radius: 50%;
 }
 
@@ -152,31 +155,41 @@ h1 {
 }
 
 .contact img{
-    margin: 10px 20px;
+    margin: 10px 20px 30px;
 }
 
-    /* About me */
-
-.span-color{
-    color: #f27457;
-}
-
-.about-container {
-    padding: 2rem 1.5rem;
+.container {
+    padding: 1rem 2.5rem; 
     text-align: justify;
     hyphens: auto;
 }
 
-    /* Professional Experience */
+h5 {
+    text-align: center;
+    font-weight: 200;
+    font-size: .9rem;
+    color: grey;
+}
 
+ul {
+    padding: 0;
+    margin: 0;
+}
 
+li {
+    list-style: none;
+    margin: 0 auto;
+}
 
-    /* Studies and Preparation */
+.job h4 {
+    text-align: start;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
 
-
-    
-    /* Skills & Tools */
-
+#years-experience {
+    margin-bottom: 20px;
+}
 
 
     /* Footer */
