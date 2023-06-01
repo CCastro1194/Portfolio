@@ -1,147 +1,31 @@
 * {
     box-sizing: border-box;
     font-family: 'Tamil Sangam MN', Sans-serif;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-}
-
-/* General Settings */
-
-body {
     padding: 0;
     margin: 0;
-    /* background-color: #253659; */
-    background-color: whitesmoke;
 }
 
-h1, 
-h2 {
-    text-align: center;
-}
-
-h1, 
-h2, 
-h3, 
-h4 {
-    margin: 0;
-    padding: 0;
-}
-
-.navbar-brand h2 {
-    color: #000;
-}
+/* body {
+    background-color: white;
+} */
 
 h2 {
     color: #03a696;
+    font-size: 2rem;
     font-weight: bold;
 }
 
-p {
-    line-height: 1.3rem;
-}
-
-h4#offcanvasNavbarLabel {
-    color: #000;
-}
-
-h4,
-p {
+h4 {
     color: #03a696;
+    text-align: start;
+    font-weight: 400;
+    font-size: 1.3rem;
 }
 
-.span-color{
-    color: #f27457;
-}
-
-.icon {
-    width: 1.2rem;
-}
-
-.icon-small {
-    width: 2rem;
-}
-
-.icon-construction {
-    width: 100%;
-    position: absolute;
-    top: 40%;
-}
-
-/* Header Navbar */
-
-#offcanvasNavbar {
-    width: 320px;
-}
-
-    /* Portfolio Content */
-
-#title {
-    margin-top: 6vh;
-}
-
-h1 {
-    font-size: 40px;
-    font-weight: 600;
-    text-align: center;
-    line-height: 2rem;
-    color: #f27457;
-}
-
-#title h2 {
-    margin-bottom: 15px;
-    font-size: 19px;
-}
-
-.hero-banner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.img-profile {
-    width: 230px;
-    border-radius: 50%;
-}
-
-#stack {
-    display: flex;
-    align-items: center;
-    margin: 20px;
-}
-
-#stack h4 {
-    padding: .3rem;
-    border-right: 3px solid #f27457;
-}
-
-.stack-wrapper {
-    padding: .3rem;
-}
-
-.contact img{
-    margin: 10px 20px 20px;
-}
-
-#about {
-    margin-top: 6vh;
-}
-
-.container {
-    padding: 1rem 2.5rem;
-    hyphens: auto;
-}
-
-h5 {
-    text-align: center;
-    font-weight: 200;
-    font-size: .9rem;
-    color: grey;
+p {
+    font-size: 1.2rem;
+    color: #253659;
+    line-height: 1.3rem;
 }
 
 ul {
@@ -154,15 +38,128 @@ li {
     margin: 0 auto;
 }
 
-h4 {
-    text-align: start;
-    font-weight: 400;
+.span-color {
+    color: #f27457;
+}
+
+.span-color2 {
+    color: #253659;
+}
+
+.icon {
+    width: 1.2rem;
+}
+
+.icon-small {
+    width: 2rem;
+}
+
+/* Main */
+
+.container {
+    padding: 1rem 2.5rem;
+    margin-top: 5vh;
+    hyphens: auto;
+}
+
+.title {
+    margin-top: 3vh;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+    color: #f27457;
+}
+
+.title p {
+    margin: 10px 0 10px;
+}
+
+.img-profile {
+    width: 230px;
+    border-radius: 50%;
+}
+
+#stack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#stack h4 {
+    padding: .3rem;
+    border-right: 3px solid #f27457;
+    text-align: center;
+}
+
+.stack-wrapper {
+    padding: .3rem;
+    
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 600px;
+}
+
+.contact-wrapper img{
+    margin: 10px 10px 30px;
+}
+
+.btn {
+    width: 140px;
     font-size: 1.3rem;
 }
 
-#years-experience {
-    margin-bottom: 20px;
+.down-arrow {
+    width: 20px;
+    margin: 20px 15vw 10px 10vw; 
 }
 
+.sub-title {
+    text-align: center;
+}
 
-    /* Footer */
+#about .sub-title .span-color {
+    display: block;
+    font-size: 4.6rem;
+    line-height: 4rem;
+}
+
+.down-arrow-right {
+    display: flex;
+    justify-content: end;
+}
+
+#experience {
+    display: flex;
+    align-items: center;
+}
+
+h5 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 1rem;
+    color: #253659;
+}
+
+#studies {
+    display: flex;
+    align-items: center;
+}
+
+#experience .sub-title h2,
+#studies .sub-title h2 {
+    line-height: 1.8rem;
+}
+
+/* #studies .education h4,
+#studies .education p{
+    text-align: center;
+} */
+
