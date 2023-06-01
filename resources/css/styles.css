@@ -163,3 +163,18 @@ h5 {
     text-align: center;
 } */
 
+#skills {
+    display: flex;
+    align-items: center;
+}
+
+#tools {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
