@@ -9,9 +9,14 @@
     background-color: white;
 } */
 
+section {
+    border-radius: 20x;
+    margin: 150px;
+}
+
 h2 {
     color: #03a696;
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: bold;
 }
 
@@ -47,7 +52,8 @@ li {
 }
 
 .icon {
-    width: 1.2rem;
+    width: 3vh;
+    margin: 5px;
 }
 
 .icon-small {
@@ -71,6 +77,7 @@ h1 {
     font-weight: 600;
     line-height: 2.5rem;
     color: #f27457;
+    text-align: center;
 }
 
 .title p {
@@ -114,11 +121,7 @@ h1 {
 .btn {
     width: 140px;
     font-size: 1.3rem;
-}
-
-.down-arrow {
-    width: 20px;
-    margin: 20px 15vw 10px 10vw; 
+    margin-bottom: 50px;
 }
 
 .sub-title {
@@ -127,16 +130,14 @@ h1 {
 
 #about .sub-title .span-color {
     display: block;
-    font-size: 4.6rem;
-    line-height: 4rem;
+    font-size: 5.5rem;
+    line-height: 5rem;
 }
 
-.down-arrow-right {
-    display: flex;
-    justify-content: end;
-}
-
-#experience {
+#experience, 
+#studies, 
+#skills, 
+#tools {
     display: flex;
     align-items: center;
 }
@@ -148,33 +149,42 @@ h5 {
     color: #253659;
 }
 
-#studies {
-    display: flex;
-    align-items: center;
-}
-
 #experience .sub-title h2,
 #studies .sub-title h2 {
-    line-height: 1.8rem;
-}
-
-/* #studies .education h4,
-#studies .education p{
-    text-align: center;
-} */
-
-#skills {
-    display: flex;
-    align-items: center;
+    line-height: 2.2rem;
 }
 
 #tools {
-    display: flex;
-    align-items: center;
+    margin-bottom: 50px;;
 }
 
 .wrapper {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+}
+
+.icon-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13vw;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #f27457;
+}
+
+#tools h4 {
+    text-align: center;
+    font-weight: 600;
+}
+
+footer {
+    border: 2px solid #253659;
+    background-color: #BF665E;
 }
