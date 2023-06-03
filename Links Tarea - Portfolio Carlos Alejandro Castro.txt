@@ -1,0 +1,11 @@
+Se adjunta el link para el Repositorio en Github, para la tarea de Portfolio
+
+https://github.com/CCastro1194/Portfolio.git
+
+
+Se adjunta a si mismo el link para la pagina web hosted en Github.
+
+https://ccastro1194.github.io/Portfolio/
+
+
+Se incluyo toda la información en un solo archivo HTML pero se seguirá trabajando a lo largo del curso para integrar mas paginas al mismo portfolio. La sección About estará "Under Construction" Ya que la idea es pasar casi todo ahi con mejor diseño. Debido al tiempo y otros factores, todo se presenta en una sola hoja Index.html. Luego se separaran las diferentes partes en sus respectivas paginas.

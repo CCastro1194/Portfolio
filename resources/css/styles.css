@@ -10,8 +10,9 @@
 } */
 
 section {
-    border-radius: 20x;
+    border-radius: 20px;
     margin: 150px;
+    /* box-shadow: #253659; */
 }
 
 h2 {
@@ -51,13 +52,17 @@ li {
     color: #253659;
 }
 
+.span-color3 {
+    color: #fff;
+}
+
 .icon {
     width: 3vh;
     margin: 5px;
 }
 
 .icon-small {
-    width: 2rem;
+    width: 2.3rem;
 }
 
 /* Main */
@@ -84,8 +89,13 @@ h1 {
     margin: 10px 0 10px;
 }
 
+#title .img-container {
+    width: 25vh;
+    margin: 0 auto;
+}
+
 .img-profile {
-    width: 230px;
+    max-width: 100%;
     border-radius: 50%;
 }
 
@@ -115,17 +125,24 @@ h1 {
 }
 
 .contact-wrapper img{
-    margin: 10px 10px 30px;
+    margin: 30px 20px 30px;
 }
 
 .btn {
     width: 140px;
     font-size: 1.3rem;
-    margin-bottom: 50px;
+    margin: 30px 0;
 }
 
 .sub-title {
     text-align: center;
+}
+
+#about .sub-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #about .sub-title .span-color {
@@ -169,13 +186,24 @@ h5 {
     flex-wrap: wrap;
 }
 
-.box {
+.skill-box, 
+.tool-box {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     width: 13vw;
+    padding: 5px;
     margin: 5px;
+    border: 1px solid #f27457;
     border-radius: 10px;
+    /* background-color: #f27457; */
+}
+
+.skill-box span, 
+.tool-box span {
+    /* width percentage is set as inline style */
+    text-align: center;
+    border-radius: 5px;
     background-color: #f27457;
 }
 
@@ -185,6 +213,10 @@ h5 {
 }
 
 footer {
-    border: 2px solid #253659;
     background-color: #BF665E;
+}
+
+.btn-submit {
+    color: #fff;
+    background-color: #253659;
 }
