@@ -192,7 +192,7 @@ h5 {
     justify-content: start;
     align-items: center;
     width: 13vw;
-    padding: 5px;
+    padding: 3px;
     margin: 5px;
     border: 1px solid #f27457;
     border-radius: 10px;
@@ -203,7 +203,7 @@ h5 {
 .tool-box span {
     /* width percentage is set as inline style */
     text-align: center;
-    border-radius: 5px;
+    border-radius: 7px;
     background-color: #f27457;
 }
 
